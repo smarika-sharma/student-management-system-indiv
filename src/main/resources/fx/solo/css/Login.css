@@ -1,0 +1,37 @@
+/*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+.pane{
+    --fxbackground-color: #FAF9F6;
+}
+.vbox-login-components{
+    --fxbackground-color: rgb(142, 145, 74);
+}
+.text{
+    -fx-font-family: "Inknut Antiqua";
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1 0; /* Bottom border only */
+    -fx-font-size: 12px;
+}
+
+.btn{
+ -fx-background-color: rgb(184, 80, 66);
+    -fx-text-fill: white;
+    -fx-background-radius: 40;
+}
+.btn:hover{
+    -fx-background-color: rgba(184, 80, 66, 0.71);
+}
+.redirect-sign-up{
+    -fx-background-color: transparent;
+    -fx-text-fill: rgba(38, 164, 239, 0.94);
+    -fx-underline: true;
+}
+.redirect-sign-up:hover{
+    -fx-text-fill: rgba(99, 186, 236, 0.76);
+}

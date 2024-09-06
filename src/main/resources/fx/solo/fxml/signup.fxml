@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.solo.Controllers.Signup">
+    <children>
+        <HBox layoutX="-2.0" layoutY="-3.0" prefHeight="755.0" prefWidth="1203.0" styleClass="pane" stylesheets="@../css/Login.css">
+            <children>
+                <ImageView fitHeight="639.0" fitWidth="613.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/boy.png" />
+                    </image>
+                    <HBox.margin>
+                        <Insets left="50.0" top="55.0" />
+                    </HBox.margin>
+                </ImageView>
+                <VBox alignment="TOP_CENTER" prefHeight="755.0" prefWidth="512.0" style="-fx-background-color: E7E8D1;" styleClass="vbox-login-components" stylesheets="@../css/Login.css">
+                    <HBox.margin>
+                        <Insets left="30.0" />
+                    </HBox.margin>
+                    <children>
+                        <ImageView fitHeight="73.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/logo.png" />
+                            </image>
+                            <VBox.margin>
+                                <Insets top="60.0" />
+                            </VBox.margin>
+                        </ImageView>
+                        <Label styleClass="text" stylesheets="@../css/Login.css" text="Register">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <font>
+                                <Font size="30.0" />
+                            </font>
+                        </Label>
+                        <Label style="-fx-text-fill: #808080;" styleClass="text" stylesheets="@../css/Login.css" text="Fill in all the details to sign up">
+                            <VBox.margin>
+                                <Insets top="-15.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <HBox prefHeight="43.0" prefWidth="509.0">
+                            <VBox.margin>
+                                <Insets top="30.0" />
+                            </VBox.margin>
+                            <padding>
+                                <Insets bottom="10.0" left="70.0" right="10.0" top="10.0" />
+                            </padding>
+                            <children>
+                                <Label prefHeight="26.0" prefWidth="148.0" styleClass="text" stylesheets="@../css/Login.css" text="Full Name">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="signupFullName" prefHeight="26.0" prefWidth="191.0" stylesheets="@../css/Login.css">
+                                    <HBox.margin>
+                                        <Insets left="15.0" />
+                                    </HBox.margin>
+                                </TextField>
+                            </children>
+                        </HBox>
+                  <HBox prefHeight="43.0" prefWidth="509.0">
+                     <padding>
+                        <Insets bottom="10.0" left="70.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <Label prefHeight="26.0" prefWidth="148.0" styleClass="text" stylesheets="@../css/Login.css" text="Email">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="signupEmail" prefHeight="26.0" prefWidth="191.0" stylesheets="@../css/Login.css">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="43.0" prefWidth="509.0">
+                     <padding>
+                        <Insets bottom="10.0" left="70.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <Label prefHeight="26.0" prefWidth="148.0" styleClass="text" stylesheets="@../css/Login.css" text="Phone Number">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="signupPhoneNumber" prefHeight="26.0" prefWidth="191.0" stylesheets="@../css/Login.css">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                        <HBox prefHeight="43.0" prefWidth="509.0">
+                            <padding>
+                                <Insets bottom="10.0" left="70.0" right="10.0" top="10.0" />
+                            </padding>
+                            <children>
+                                <Label prefHeight="26.0" prefWidth="150.0" styleClass="text" stylesheets="@../css/Login.css" text="Password">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Label>
+                                <PasswordField fx:id="signupPassword" prefHeight="26.0" prefWidth="190.0">
+                                    <HBox.margin>
+                                        <Insets left="15.0" />
+                                    </HBox.margin>
+                                </PasswordField>
+                            </children>
+                        </HBox>
+                  <HBox prefHeight="43.0" prefWidth="509.0">
+                     <padding>
+                        <Insets bottom="10.0" left="70.0" right="10.0" top="10.0" />
+                     </padding>
+                     <children>
+                        <Label prefHeight="26.0" prefWidth="151.0" styleClass="text" stylesheets="@../css/Login.css" text="Confirm Password">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="signupConformPassword" prefHeight="26.0" prefWidth="189.0">
+                           <HBox.margin>
+                              <Insets left="15.0" />
+                           </HBox.margin>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+                  <Label fx:id="signupErrorLabel" visible="false" />
+                        <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="72.0" styleClass="btn" stylesheets="@../css/Login.css" text="Signup">
+                            <VBox.margin>
+                                <Insets top="10.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <HBox alignment="TOP_CENTER" prefHeight="30.0" prefWidth="509.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#redirectToLogin" prefHeight="30.0" prefWidth="261.0" styleClass="redirect-sign-up" stylesheets="@../css/Login.css" text="Go back ">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                    <HBox.margin>
+                                        <Insets top="5.0" />
+                                    </HBox.margin>
+                                </Button>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="24.0" prefWidth="509.0">
+                            <children>
+                                <Ellipse fill="#b8504285" radiusX="4.0" radiusY="4.0" stroke="#b850424d" strokeType="INSIDE">
+                                    <HBox.margin>
+                                        <Insets right="5.0" />
+                                    </HBox.margin>
+                                </Ellipse>
+                                <Ellipse fill="#b85042" radiusX="4.0" radiusY="4.0" stroke="#b85042" strokeType="INSIDE">
+                                    <HBox.margin>
+                                        <Insets right="5.0" />
+                                    </HBox.margin>
+                                </Ellipse>
+                            </children>
+                            <VBox.margin>
+                                <Insets top="15.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+
+</AnchorPane>
