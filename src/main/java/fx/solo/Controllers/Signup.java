@@ -8,7 +8,10 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+
 import static fx.solo.Uses.Uses.changeScene;
+import static fx.solo.Uses.Uses.error;
 
 public class Signup {
 @FXML
@@ -28,16 +31,10 @@ private PasswordField signupConformPassword;
 @FXML
 private Label signupErrorLabel;
 
-//String fullname= signupFullName.getText();
-//String email= signupEmail.getText();
-//String phonenumber= signupPhoneNumber.getText();
-//String password= signupPassword.getText();
-//String cpassword= signupConformPassword.getText();
-
     @FXML
     protected void initialize(){
         final String[] faculty= {"BCS", "BHM", "BBA", "BIHM", "MCS", "MBA"};
-        signupFaculty.getItems().addAll(faculty);
+        signupFaculty.getItems().addAll(faculty);  //adding the dropdown
         final String[] gender={"Male", "Female", "Others"};
         signupGender.getItems().addAll(gender);
         signupErrorLabel.setText("");
@@ -54,9 +51,34 @@ private Label signupErrorLabel;
         signupErrorLabel.setText("");
     }
 
-//    protected void verifyFullName(){
-//
+    @FXML
+    protected void signupBtnClicked() {
+    String fullName= signupFullName.getText();
+    String email= signupEmail.getText();
+    String faculty= signupFaculty.getValue();
+    String gender= signupGender.getValue();
+    String phoneNumber= signupPhoneNumber.getText();
+    String password= signupPassword.getText();
+    String cPassword= signupConformPassword.getText();
+
+    if(fullName.isEmpty()|| email.isEmpty() || faculty.isEmpty()||gender.isEmpty()||phoneNumber.isEmpty()||password.isEmpty()||cPassword.isEmpty()){
+        error(signupErrorLabel, "Field/s is empty", true);
+    }
+//    int validateLength= fullName.length();
+//    if(validateLength<5){
+//        error(signupErrorLabel, "Full Name length not acceptable !", true);
 //    }
+//    else {
+//        if (fullName.charAt(0) == ' '|| fullName.charAt(-1) == ' ') {
+//            error(signupErrorLabel, "Invalid name", true);
+//        }
+//        else {
+////            there is at least a space in the full name.
+//            for (int i = 0; i <= validateLength; i++) {
+//            }
+//        }
+//    }
+    }
 
     @FXML
     public void redirectToLogin(ActionEvent event) throws IOException {

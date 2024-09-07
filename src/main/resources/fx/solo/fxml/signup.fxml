@@ -93,7 +93,7 @@
                               <Font size="14.0" />
                            </font>
                         </Label>
-                        <ChoiceBox fx:id="signupFaculty"  prefHeight="26.0" prefWidth="84.0" styleClass="text-field" stylesheets="@../css/Login.css" />
+                        <ChoiceBox fx:id="signupFaculty" prefHeight="26.0" prefWidth="84.0" styleClass="text-field" stylesheets="@../css/Login.css" />
                         <Label prefHeight="26.0" prefWidth="70.0" styleClass="text" stylesheets="@../css/Login.css" text="Gender">
                            <font>
                               <Font size="14.0" />
@@ -173,11 +173,11 @@
                         </PasswordField>
                      </children>
                   </HBox>
-                  <Label fx:id="signupErrorLabel" alignment="CENTER" prefHeight="0.0" prefWidth="171.0" text="Label">
+                  <Label fx:id="signupErrorLabel" alignment="CENTER" prefHeight="18.0" prefWidth="484.0" text="Label">
                      <font>
-                        <Font size="10.0" />
+                        <Font size="9.0" />
                      </font></Label>
-                        <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="72.0" styleClass="btn" stylesheets="@../css/Login.css" text="Signup">
+                        <Button mnemonicParsing="false" onAction="#signupBtnClicked" prefHeight="33.0" prefWidth="72.0" styleClass="btn" stylesheets="@../css/Login.css" text="Signup">
                             <VBox.margin>
                                 <Insets />
                             </VBox.margin>

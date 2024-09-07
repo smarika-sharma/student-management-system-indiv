@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecb175-7dd6-41d3-9c0d-27998bbb7bc4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Uses/Uses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Uses/Uses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/signup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/signup.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +120,7 @@
       <workItem from="1725586652895" duration="5865000" />
       <workItem from="1725598010269" duration="2152000" />
       <workItem from="1725600341788" duration="4133000" />
-      <workItem from="1725711695010" duration="2622000" />
+      <workItem from="1725711695010" duration="7499000" />
     </task>
     <servers />
   </component>
