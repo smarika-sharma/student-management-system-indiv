@@ -6,6 +6,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.fxml.FXMLLoader;
 import javafx.util.Duration;
@@ -22,12 +24,23 @@ public static Stage getCurrentStage(ActionEvent event){
     return stage;
 }
 
+
+//public static FXMLLoader changeScene(ActionEvent event, String scenePath, String sceneTitle) throws IOException {
+//    Stage stage = getCurrentStage(event);
+//    FXMLLoader fxmlLoader= new FXMLLoader(HelloApplication.class.getResource(scenePath));
+//    Scene scene= new Scene(fxmlLoader.load());
+//    stage.setScene(scene);
+//    stage.setTitle(sceneTitle);
+//    return fxmlLoader;
+//}
+
+//    Scene change with transition
     public static FXMLLoader changeScene(ActionEvent event , String sceneName, String scenneTitle){
     Stage stage= getCurrentStage(event); //get the current stage
     FXMLLoader fxmlLoader= new FXMLLoader(HelloApplication.class.getResource(sceneName));  //create a new object
         Parent root= stage.getScene().getRoot();
 
-        FadeTransition fadeOut= new FadeTransition(Duration.millis(500), root);
+        FadeTransition fadeOut= new FadeTransition(Duration.millis(300), root);
         fadeOut.setFromValue(1.0);
         fadeOut.setToValue(0.0);
 
@@ -43,6 +56,12 @@ public static Stage getCurrentStage(ActionEvent event){
                 );
         fadeOut.play();
         return fxmlLoader;
+    }
+
+    public static void error(Label error, String errorMessage, boolean visibility){
+    error.setText(errorMessage);
+    error.setVisible(true);
+    error.setTextFill(Color.RED);
     }
 
 

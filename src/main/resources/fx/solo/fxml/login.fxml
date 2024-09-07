@@ -68,7 +68,7 @@
                               <Font size="14.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="loginEmail" prefHeight="26.0" prefWidth="240.0" stylesheets="@../css/Login.css">
+                        <TextField fx:id="loginEmail" prefHeight="26.0" prefWidth="240.0" promptText="example@gmail.com" stylesheets="@../css/Login.css">
                            <HBox.margin>
                               <Insets left="15.0" />
                            </HBox.margin>
