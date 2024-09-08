@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecb175-7dd6-41d3-9c0d-27998bbb7bc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" afterDir="false" />
     </list>
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -43,6 +44,9 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -121,7 +125,8 @@
       <workItem from="1725600341788" duration="4133000" />
       <workItem from="1725711695010" duration="7603000" />
       <workItem from="1725725069495" duration="137000" />
-      <workItem from="1725759436412" duration="3176000" />
+      <workItem from="1725759436412" duration="3704000" />
+      <workItem from="1725784685231" duration="12575000" />
     </task>
     <servers />
   </component>
