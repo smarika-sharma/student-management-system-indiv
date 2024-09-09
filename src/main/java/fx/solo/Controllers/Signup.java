@@ -8,8 +8,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-
+//import java.lang.reflect.InvocationTargetException;
 import static fx.solo.Uses.Uses.changeScene;
 import static fx.solo.Uses.Uses.error;
 
@@ -52,7 +51,7 @@ public class Signup {
     }
 
     @FXML
-    protected void signupBtnClicked(ActionEvent event) {
+    protected void signupBtnClicked(ActionEvent event) throws IOException{
         String fullName = signupFullName.getText();
         String email = signupEmail.getText();
         String faculty = signupFaculty.getValue();
@@ -137,7 +136,9 @@ public class Signup {
             }
 
             if(validate){
-                changeScene(event, "/fx/solo/fxml/dashboard.fxml", "Dashboard");
+                System.out.println("Inside");
+                changeScene(event, "/fx/solo/fxml/Student/studentDashboard.fxml", "Dashboard");
+                System.out.println("outside");
             }
         }
     }

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6ecb175-7dd6-41d3-9c0d-27998bbb7bc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Signup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Student/StudentDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fx/solo/Controllers/Student/StudentDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/Student/studentDashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fx/solo/fxml/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\smari\IdeaProjects\solo\src\main\resources\fx\solo\fxml\Student" />
       <recent name="C:\Users\smari\IdeaProjects\solo\src\main\resources\fx\solo\fxml" />
       <recent name="C:\Users\smari\IdeaProjects\solo\src\main\resources\fx\solo" />
     </key>
@@ -126,7 +129,8 @@
       <workItem from="1725711695010" duration="7603000" />
       <workItem from="1725725069495" duration="137000" />
       <workItem from="1725759436412" duration="3704000" />
-      <workItem from="1725784685231" duration="12575000" />
+      <workItem from="1725784685231" duration="12849000" />
+      <workItem from="1725861991443" duration="5759000" />
     </task>
     <servers />
   </component>
